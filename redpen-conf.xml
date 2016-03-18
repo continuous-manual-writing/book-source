@@ -1,0 +1,40 @@
+<redpen-conf lang="ja">
+    <validators>
+        <validator name="SentenceLength">
+          <property name="max_len" value="90"/>
+        </validator>
+        <validator name="InvalidSymbol">
+          <property name="list" value="ワンコマンド,pull request,サポートリポジトリ" />
+        </validator>
+        <validator name="KatakanaEndHyphen"/>
+        <validator name="SuggestExpression">
+          <property name="dict" value="redpen_resources/terminologies.txt" />
+        </validator>
+        <validator name="KatakanaSpellCheck" />
+        <validator name="SectionLength">
+          <property name="max_num" value="1500"/>
+        </validator>
+        <validator name="CommaNumber">
+          <property name="max_num" value="4"/>
+        </validator>
+        <validator name="SuccessiveWord" />
+       <validator name="JapaneseStyle" />
+       <validator name="InvalidExpression">
+             <property name="list" value="は下です" />
+       </validator>
+        <validator name="JavaScript">
+          <property name="script-path" value="js"/>
+        </validator>
+        <validator name="DoubleNegative" />
+        <validator name="FrequentSentenceStart" />
+    </validators>
+    <symbols>
+      <symbol name="FULL_STOP" value="。" invalid-chars="．" />
+      <symbol name="COMMA" value="、" invalid-chars="，"/>
+      <symbol name="COLON" value="：" />
+      <symbol name="DOLLAR_SIGN" value="＄" />
+      <symbol name="LESS_THAN_SIGN" value="＜" />
+      <symbol name="GREATER_THAN_SIGN" value="＜" />
+      <symbol name="VERTICAL_BAR" value="｜" />
+    </symbols>
+</redpen-conf>

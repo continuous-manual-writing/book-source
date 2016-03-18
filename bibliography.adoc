@@ -1,0 +1,5 @@
+== 参考文献
+[bibliography]
+- [[[レイツ]]] ケネス・レイツ：Hitchhiker's Guide to Python、https://github.com/kennethreitz/python-guide、2011
+- [[[伊藤ら]]] 伊藤 真人、田谷 文彦 、三澤 明：UNIXコマンドブック、ソフトバンククリエイティブ、2009
+- [[[木下]]] 木下 是雄：理科系の作文技術、中公新書、1981
